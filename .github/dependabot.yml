@@ -1,11 +1,25 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
 version: 2
 updates:
+  # --- Smart Contracts (Hardhat) ---
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/contracts" 
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 10
-    versioning-strategy: increase-if-necessary
+
+  # --- Frontend (React) ---
+  - package-ecosystem: "npm"
+    directory: "/frontend" 
+    schedule:
+      interval: "daily"
+
+  # --- Mobile (Flutter) ---
+  - package-ecosystem: "pub"
+    directory: "/mobile"
+    schedule:
+      interval: "daily"
+
+  # --- Backend / Bots (Node.js) ---
+  - package-ecosystem: "npm"
+    directory: "/backend"
+    schedule:
+      interval: "daily"
