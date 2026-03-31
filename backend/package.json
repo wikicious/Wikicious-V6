@@ -9,7 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "express": "^4.21.0",
+    "express": "^5.2.1",
     "ethers": "^6.13.0",
     "axios": "^1.7.7",
     "cors": "^2.8.5",
