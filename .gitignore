@@ -1,0 +1,36 @@
+# Environment files — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+dist/
+out/
+
+# Hardhat artifacts
+contracts/artifacts/
+contracts/cache/
+contracts/deployments/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Keys (extra protection)
+*.pem
+*.key
+*.p12

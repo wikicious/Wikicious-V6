@@ -1,0 +1,35 @@
+name: wikicious_v6
+description: Wikicious V6 — Advanced DEX on Arbitrum One
+version: 6.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod:        ^2.6.1
+  riverpod_annotation:     ^2.6.1
+  go_router:               ^14.6.2
+  dio:                     ^5.7.0
+  web_socket_channel:      ^3.0.1
+  walletconnect_flutter_v2: ^2.4.2
+  web3dart:                ^2.7.3
+  bip39:                   ^1.0.6
+  bip32:                   ^2.0.0
+  hex:                     ^0.2.0
+  fl_chart:                ^0.69.0
+  candlesticks:            ^2.1.1
+  flutter_secure_storage:  ^9.2.2
+  shared_preferences:      ^2.3.3
+  hive_flutter:            ^1.1.0
+  local_auth:              ^2.3.0
+  url_launcher:            ^6.3.0
+  package_info_plus:       ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:            ^2.4.12
+  riverpod_generator:      ^2.6.1
