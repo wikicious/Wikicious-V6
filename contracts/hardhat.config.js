@@ -17,12 +17,6 @@ const config = {
     sources: "./src",
   },
   networks: {
-    // ... your existing network config
-  }
-};
-
-  
-  networks: {
     // ── Mainnet ────────────────────────────────────────────────
     arbitrum_one: {
       url: process.env.ALCHEMY_ARBITRUM_URL || 'https://arb-mainnet.g.alchemy.com/v2/FIuzDGMai4v735SmTPvJK',
