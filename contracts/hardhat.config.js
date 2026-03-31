@@ -12,6 +12,16 @@ const config = {
       viaIR: true,
     },
   },
+  // ADD THIS SECTION BELOW
+  paths: {
+    sources: "./src",
+  },
+  networks: {
+    // ... your existing network config
+  }
+};
+
+  
   networks: {
     // ── Mainnet ────────────────────────────────────────────────
     arbitrum_one: {
