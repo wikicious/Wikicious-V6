@@ -17,7 +17,7 @@
     "express-rate-limit": "^8.3.2",
     "jsonwebtoken": "^9.0.2",
     "bcryptjs": "^3.0.3",
-    "better-sqlite3": "^11.3.0",
+    "better-sqlite3": "^12.8.0",
     "ws": "^8.18.0",
     "dotenv": "^17.3.1",
     "morgan": "^1.10.0",
