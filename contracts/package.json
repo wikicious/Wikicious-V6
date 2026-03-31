@@ -1,14 +1,13 @@
 {
   "name": "wikicious-v6-contracts",
   "version": "6.0.0",
-  "description": "Wikicious V6 — Smart Contracts on Arbitrum One",
+  "type": "module", 
+  "description": "Wikicious V6 - Smart Contracts on Arbitrum One",
   "scripts": {
-    "compile":        "hardhat compile",
-    "test":           "hardhat test",
-    "deploy":         "hardhat run scripts/deploy.js --network arbitrum_one",
-    "deploy:testnet": "hardhat run scripts/deploy.js --network arbitrum_sepolia",
-    "verify":         "hardhat run scripts/verify.js --network arbitrum_one",
-    "transfer":       "hardhat run scripts/transfer-ownership.js --network arbitrum_one"
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network arbitrum_one",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network arbitrum_sepolia"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
